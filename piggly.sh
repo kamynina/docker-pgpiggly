@@ -48,8 +48,6 @@ fi
 
 ROOT=/piggly
 
-chmod -R 777 $RESULT
-
 echo "
 piggly:
   adapter: postgresql
@@ -77,3 +75,4 @@ else
   exit 1
 fi;
 
+chmod -R 777 $RESULT
